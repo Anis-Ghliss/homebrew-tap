@@ -28,7 +28,9 @@ cask "devnotch" do
   ]
 
   caveats <<~EOS
-    DevNotch isn't notarized yet, so macOS blocks it on first launch. Open it once, then
-    allow it under System Settings → Privacy & Security → Open Anyway.
+    DevNotch is in beta: expect rough edges.
+
+    It isn't notarized yet, so macOS blocks it on first launch. Open it once, then allow it
+    under System Settings → Privacy & Security → Open Anyway.
   EOS
 end
