@@ -11,7 +11,7 @@ cask "devnotch" do
 
   livecheck do
     url "https://github.com/Anis-Ghliss/devnotch-releases/releases/latest/download/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   # DevNotch updates itself with Sparkle.
