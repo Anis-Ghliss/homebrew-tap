@@ -4,6 +4,8 @@ Homebrew casks for my Mac apps.
 
 ## DevNotch
 
+<p><img src="logo.svg" width="72" alt="DevNotch logo"></p>
+
 > **Beta.** DevNotch is in beta: expect rough edges, and things may change between releases.
 
 A notch for developers: your Claude Code and Codex agents, pull requests and CI, in a panel that drops out of the MacBook notch.
