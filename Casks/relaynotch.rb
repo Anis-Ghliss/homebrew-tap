@@ -1,8 +1,8 @@
 # Homebrew cask for RelayNotch. scripts/release.sh fills in the version and checksum and
 # publishes this to the Anis-Ghliss/homebrew-tap repo on every release.
 cask "relaynotch" do
-  version "1.2.0"
-  sha256 "f0ec14305806e8d5e927742a1af90f189f8643733a97b20999ade50595d8688c"
+  version "1.2.1"
+  sha256 "c0e7f8956656eff4ce449f45779fad50710ed8d5a6cccca3cc7a56e214c06000"
 
   url "https://github.com/Anis-Ghliss/relaynotch-releases/releases/download/v#{version}/RelayNotch-#{version}.zip"
   name "RelayNotch"
